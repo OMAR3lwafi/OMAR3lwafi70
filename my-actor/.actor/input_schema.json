@@ -1,0 +1,15 @@
+{
+    "title": "YouTube Video Scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "videoId": {
+            "title": "YouTube Video ID",
+            "type": "string",
+            "description": "The ID of the YouTube video you want to search for (e.g., 'dQw4w9WgXcQ')",
+            "editor": "textfield",
+            "prefill": "dQw4w9WgXcQ"
+        }
+    },
+    "required": ["videoId"]
+}

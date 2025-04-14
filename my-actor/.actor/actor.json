@@ -1,0 +1,12 @@
+{
+	"actorSpecification": 1,
+	"name": "youtube-video-info",
+	"title": "YouTube Video Info Scraper",
+	"description": "Takes a YouTube video ID as input and extracts the video title and URL.",
+	"version": "0.0",
+	"meta": {
+		"templateId": "ts-start"
+	},
+	"input": "./input_schema.json",
+	"dockerfile": "./Dockerfile"
+}

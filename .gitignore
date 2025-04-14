@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Apify storage
+my-actor/storage/**/
+!my-actor/storage/key_value_stores/default/INPUT.json
+
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Misc
+.DS_Store
+.idea/
+.vscode/
+.apify/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Distribution files
+dist/
